@@ -4,6 +4,17 @@
     font-family: roboto,Arial, Helvetica, sans-serif;
   }
 
+  *::-webkit-scrollbar{
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #9e9797;
+    border-radius: 10px;
+  }
+
+ 
+
+
 .nav-bar{
   display: flex;
   position: fixed;
@@ -118,7 +129,7 @@
   display: flex;
   flex-direction: column;
   position: fixed;
-  max-height: 550px;
+  max-height: 85vh;
   padding-top: 8px;
   background-color: white;
   width: 220px;
